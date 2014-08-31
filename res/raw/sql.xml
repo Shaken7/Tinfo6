@@ -1,0 +1,30 @@
+<sql>
+<statement>
+CREATE TABLE IF NOT EXISTS employee (
+	_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	name VARCHAR(50), 
+	description VARCHAR(200), 
+	address VARCHAR(50), 
+	department VARCHAR(50), 
+	managerId INTEGER, 
+	officeHours VARCHAR(50), 
+	officePhone VARCHAR(30), 
+	cellPhone VARCHAR(30), 
+	email VARCHAR(30), 
+	picture VARCHAR(200))
+</statement>
+<statement>INSERT INTO employee VALUES(1,'Atameken','','Kabanbai Batyra, 54', 'top250', NULL, 'www.atameken.kz','728-222-8598','747-999-8487','atameken.kz','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(2,'Meruert','','Zhabaeva, 119','top250',1,'Scranton','570-888-9999','570-222-3333','meruert,kz','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(3,'Taldykorgan','','Kabanbai Batyra, 107','top250',2,'Scranton','570-444-4444','570-333-3333','dwight@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(4,'Sela','','Shevchenko, 54','Now Showing',2,'Scranton','570-222-2121','570-999-1212','jim@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(5,'Zhibek','','Shahvorostova, 154','Coming Soon..',2,'Scranton','570-999-5555','570-999-7474','pam@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(6,'Denta','','Gauhar Ana, 51','Category4',2,'Scranton','570-555-9696','570-999-3232','angela@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(7,'Alym','','Zhansugurova, 52','Coming Soon..',6,'Scranton','570-777-9696','570-111-2525','kmalone@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(8,'Zhetysu','','Tauelsizdik, 54','Coming Soon..',6,'Scranton','570-321-9999','570-585-3333','oscar@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(9,'Sova','','Shevchenko, 54','Category5',2,'Scranton','570-222-6666','333-8585','creed@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(10,'Party','','3 mikroraion, 5','Coming Soon..',2,'Scranton','570-555-0000','570-546-9999','andy@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(11,'Cent','Market','Tauelsizdik, 80','Category6',10,'Scranton','570-141-3333','570-888-6666','phyllis@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(12,'Hessen','Pub','Kabanbai Batyra, 254','Coming Soon..',10,'Scranton','570-700-6666','570-777-6666','shudson@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(13,'City','Plus','mikroraion Karatal, 23a','Category5',2,'Scranton','570-555-8888','570-777-2222','meredith@dundermifflin.com','howard.png')</statement>
+<statement>INSERT INTO employee VALUES(14,'Bereke','Parikmaherskaya','Tauelsizdik, 120','Category4',2,'Scranton','570-123-9654','570-125-3666','kelly@dundermifflin.com','howard.png')</statement>
+</sql>
